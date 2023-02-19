@@ -36,6 +36,7 @@ const Cart = () => {
                       onClick={() => {
                         onClickDecrease(id);
                       }}
+                      className="food-item-increase-button"
                     >
                       -
                     </button>
@@ -44,6 +45,7 @@ const Cart = () => {
                       onClick={() => {
                         onClickIncrease(id);
                       }}
+                      className="food-item-increase-button"
                     >
                       +
                     </button>
@@ -57,6 +59,7 @@ const Cart = () => {
                       onClick={() => {
                         onClickDelete(id);
                       }}
+                      className="btn"
                     >
                       Delete Item
                     </button>

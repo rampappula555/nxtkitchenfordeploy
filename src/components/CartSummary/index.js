@@ -35,14 +35,13 @@ const CartSummary = () => {
                 className="checkout-greetings-image"
               />
             </div>
-            <p>Ordered Placed</p>
-            <p>Payment Successful</p>
-            <p>
+            <p className="payment-successfull-text">Payment Successful</p>
+            <p className="payment-successful-details-text">
               Thank you for ordering <br /> Your payment is successfully
               completed.
             </p>
-            <button onClick={onClickGoHome} className="shopnow-button">
-              Continue Ordering
+            <button onClick={onClickGoHome} className="home-button">
+              Home
             </button>
           </div>
         )}

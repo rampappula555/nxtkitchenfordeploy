@@ -7,6 +7,15 @@
 * {
   scroll-behavior: smooth;
 }
+.scroll-button {
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f7931e;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
 .up-and-down-button-container {
   position: fixed;
   bottom: 30px;

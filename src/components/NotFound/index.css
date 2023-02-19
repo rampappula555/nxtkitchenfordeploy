@@ -41,7 +41,7 @@
 
   width: 123px;
   height: 48px;
-
+  cursor: pointer;
   background: #f7931e;
   border-radius: 12px;
   border: none;

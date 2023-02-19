@@ -4,6 +4,68 @@
   flex-direction: column;
   align-items: flex-end;
 }
+.home-button {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  background: #f7931e;
+  border-radius: 8px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+}
+.payment-successfull-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.payment-successful-details-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.payment-successfull-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
 .totalprice-heading {
   font-size: 400;
   width: 200px;

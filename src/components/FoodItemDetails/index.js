@@ -7,6 +7,7 @@ import FoodItem from "../FoodItem";
 import { AiOutlineStar } from "react-icons/ai";
 import { ThreeDots } from "react-loader-spinner";
 import Footer from "../Footer";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const apiStatusConstants = {
   initial: "INITIAL",
@@ -170,9 +171,15 @@ const FoodItemDetails = () => {
         <Footer />
       </div>
       <div className="up-and-down-button-container">
-        <button onClick={onClickScrollButton}>
-          {isScrolled ? "go to top" : "go to bottom"}
-        </button>
+        {isScrolled ? (
+          <button onClick={onClickScrollButton} className="scroll-button">
+            <AiOutlineArrowUp />
+          </button>
+        ) : (
+          <button onClick={onClickScrollButton} className="scroll-button">
+            <AiOutlineArrowDown />
+          </button>
+        )}
       </div>
     </div>
   );
