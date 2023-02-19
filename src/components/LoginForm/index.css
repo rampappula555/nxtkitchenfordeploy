@@ -1,0 +1,111 @@
+.error-message-text {
+  color: red;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.login-form-logo {
+  margin-left: 10px;
+}
+.login-button {
+  outline: none;
+  height: 40px;
+  width: 360px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.password-input {
+  background: #e2e8f0;
+  border-radius: 2px;
+  height: 40px;
+  width: 360px;
+
+  border-radius: 2px;
+}
+.password-label {
+  width: 68px;
+  height: 16px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #475569;
+}
+.username-input {
+  height: 40px;
+  width: 360px;
+  border-radius: 2px;
+  background: #e2e8f0;
+}
+.username-label {
+  width: 66px;
+  height: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #475569;
+}
+.login-form-background-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tasty-kitchen-heading {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+  height: 32px;
+  width: 172px;
+  left: 307px;
+  top: 341px;
+  border-radius: nullpx;
+  text-align: center;
+}
+.form-container {
+  width: 456px;
+  height: 523px;
+  left: 165px;
+  top: 250px;
+
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.login-page-image {
+  height: 800px;
+}
+.login-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0f172a;
+  width: 80px;
+  height: 40px;
+}

@@ -1,0 +1,121 @@
+.header-heading-text {
+  margin-left: 9px;
+
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #f7931e;
+}
+.logout-popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(240, 248, 255, 0.505);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yes-button {
+  margin-right: 5px;
+}
+.logout-popup-container-two {
+  width: 300px;
+  background-color: #f7931e;
+  height: 130px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 15px;
+}
+.home-navlink {
+  height: 26px;
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.logout-button {
+  width: 41px;
+  height: 16px;
+
+  /* Action / Button / Small */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 73px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.active {
+  color: #f7931e;
+}
+.cart-navlink-container {
+  margin-left: 20px;
+}
+.logout-button-container {
+  margin-left: 20px;
+}
+.cart-link {
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.header-background-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  margin-top: 0;
+  padding-right: 5px;
+}
+.header-logo-and-heading-container {
+  display: flex;
+}
+.header-buttons-container {
+  display: flex;
+  align-items: center;
+}

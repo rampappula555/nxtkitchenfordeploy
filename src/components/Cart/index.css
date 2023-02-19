@@ -1,0 +1,98 @@
+.empty-cart-list-main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  width: 100vw;
+}
+.no-orders-yet-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.no-order-text-details {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.order-now-button {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+}
+.cartlist-item-main-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px;
+  margin: 10px;
+  margin-left: 30px;
+  margin-right: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.cartlist-view-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+}
+.cartlist-view-image-container {
+  background-size: cover;
+  padding-top: 10px;
+}
+.title-and-brand-text-container {
+  padding-left: 30px;
+  width: 400px;
+}
+.cartlistitem-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.cartlistitem-price-container {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.delete-item-button-container {
+  margin-left: 100px;
+  margin-right: 250px;
+}

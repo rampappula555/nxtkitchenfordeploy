@@ -1,0 +1,131 @@
+.buttons-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.food-item-image {
+  height: 170px;
+  width: 255px;
+  border-radius: 5px;
+}
+.each-food-details-container {
+  display: flex;
+  align-items: center;
+}
+.each-food-details-name-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.2px;
+  margin-bottom: 5px;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.each-food-details-price-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 700 */
+  margin: 0;
+  margin-bottom: 4px;
+
+  color: #334155;
+}
+.each-food-details-rating-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.each-food-details-rating-text {
+  width: 22px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  margin: 0;
+
+  color: #0a1f44;
+}
+.each-food-details-rating-icon-container {
+  margin-right: 3px;
+  padding-top: 1px;
+  margin: 0;
+}
+.each-food-details-image-container {
+  margin-right: 15px;
+}
+.each-food-details-text-container {
+  margin-left: 15px;
+  padding-bottom: 40px;
+}
+.added-to-cart-text {
+  height: 16px;
+
+  /* Action / Button / Small */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #ffa412;
+  margin: 0;
+  margin-bottom: 5px;
+
+  /* Inside auto layout */
+}
+.food-item-increase-button {
+  background-color: #e5e5e5;
+  color: #ffa412;
+  border-radius: 7px;
+  border-color: #ffa412;
+}
+.each-food-item-quantity {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.btn {
+  /* Action / Button / Small */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #ffa412;
+  border-radius: 3px;
+  padding: 2px;
+  border-color: #ffa412;
+  padding-left: 6px;
+  padding-right: 6px;
+}
