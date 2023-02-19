@@ -58,14 +58,14 @@ const FoodItem = (props) => {
               className="food-item-increase-button"
               onClick={onClickDecrease}
             >
-              d
+              -
             </button>
             <p className="each-food-item-quantity">{quantity}</p>
             <button
               onClick={onClickIncrease}
               className="food-item-increase-button"
             >
-              i
+              +
             </button>
           </div>
         )}
