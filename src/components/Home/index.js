@@ -187,18 +187,11 @@ const Home = () => {
               name,
               id,
               imageUrl,
-              costForTwo,
+
               cuisine,
-              groupByTime,
-              hasOnlineDelivery,
-              hasTableBooking,
-              isDeliveringNow,
-              location,
-              menuType,
-              opensAt,
+
               rating,
-              ratingColor,
-              ratingText,
+
               totalReviews,
             } = eachRestaurant;
             return (
