@@ -2,6 +2,9 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+.search-button {
+  cursor: pointer;
+}
 .home-page-restaurant-details-container {
   display: flex;
   align-items: center;
@@ -99,10 +102,12 @@ body {
   padding-left: 6px;
   padding-right: 6px;
   padding-bottom: 0;
+  cursor: pointer;
 }
 .sortby-options-container {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .sortby-option-icon-container {
   padding-top: 3px;

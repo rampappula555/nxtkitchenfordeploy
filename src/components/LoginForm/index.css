@@ -27,7 +27,7 @@
   border-radius: 2px;
   height: 40px;
   width: 360px;
-
+  cursor: pointer;
   border-radius: 2px;
 }
 .password-label {

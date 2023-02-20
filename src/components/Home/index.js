@@ -301,7 +301,9 @@ const Home = () => {
               value={usersSearch}
               onChange={onChangeUsersSearch}
             />
-            <button onClick={onClickSearchButton}>search</button>
+            <button onClick={onClickSearchButton} className="search-button">
+              search
+            </button>
           </div>
           <div>{getRestaurantsView()}</div>
           <div className="homepage-button-container">

@@ -15,6 +15,7 @@
   color: #ffffff;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 .up-and-down-button-container {
   position: fixed;

@@ -95,6 +95,7 @@
   color: #ffa412;
   border-radius: 7px;
   border-color: #ffa412;
+  cursor: pointer;
 }
 .each-food-item-quantity {
   font-family: "DM Sans";
@@ -121,7 +122,7 @@
   font-size: 12px;
   line-height: 16px;
   /* identical to box height, or 133% */
-
+  cursor: pointer;
   color: #ffa412;
   border-radius: 3px;
   padding: 2px;
