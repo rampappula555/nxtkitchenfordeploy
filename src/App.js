@@ -45,13 +45,23 @@ const App = () => {
         }
       });
       if (x !== -1) {
-        const y = prevState.slice(x, x + 1);
-        console.log(y);
-        prevState.splice(x, 1, {
-          ...y[0],
-          quantity: foodItem.quantity + y[0].quantity,
+        // const y = prevState.slice(x, x + 1);
+        // console.log(y);
+        // prevState.splice(x, 1, {
+        //   ...y[0],
+        //   quantity: foodItem.quantity + y[0].quantity,
+        // });
+        // return [...prevState];
+        const updatedCart = prevState.map((eachItem) => {
+          if (eachItem.id === foodItem.id) {
+            return {
+              ...eachItem,
+              quantity: eachItem.quantity + foodItem.quantity,
+            };
+          }
+          return eachItem;
         });
-        return [...prevState];
+        return updatedCart;
       } else {
         return [...prevState, foodItem];
       }
